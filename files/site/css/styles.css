@@ -1,0 +1,171 @@
+.logo {
+  margin-left: 0px;
+  margin-top: 0px
+  width: 100%;
+  height: 500px;
+  background: url('/files/site/img/logo3.jpg');
+  background-position: left top;
+  background-repeat: no-repeat;
+}
+
+ .logoTxt{
+  position: absolute;
+  margin: 200px 300px;
+  color: white;
+  font-size: 115px;
+  text-shadow: black 0 0 2px;
+}
+
+.conteiner{
+  margin: 0 auto;
+  width: 80%;
+  font-size: 18px;
+}
+
+img{
+  width: 600px;
+  height: 450px;
+}
+
+ul.menu{
+  width: 100%;
+  background-color: LightSalmon;
+  padding: 0px;
+  margin: 0px;
+}
+li.m_item{
+  display: inline;
+  margin: 0;
+  height: 50px;
+  width: auto;
+}
+
+.btn_m{
+color: white;
+font-size: 40px;
+background-color: orange;
+padding: 1px 5px;
+text-decoration: none;
+}
+.btn_m:hover{
+background-color: OrangeRed;
+}
+.btn_m:active{
+  background-color: Tomato;
+}
+
+div.row{
+  display: inline-block;
+}
+div.col{
+  display: inline-block;
+  vertical-align: top;
+}
+div.col1{
+  margin: 10px 0;
+  padding: 10px 10px;
+  background-color: LightYellow;
+  border: 1px solid;
+  border-color: Moccasin;
+  border-radius: 5px;
+  width: 900px;
+  clear: both;
+}
+div.col2{
+  background-color: LightYellow;
+  border: 1px solid;
+  border-color: Moccasin;
+  border-radius: 5px;
+  margin: 10px 0px;
+  padding: 10px 10px;
+  width: 250px;
+}
+hr {
+      margin: 2px 0;
+      color: inherit;
+      background-color: currentColor;
+      border: 1;
+      opacity: .25;
+  }
+.footer{
+  width: 100%;
+  background-color: LightSalmon;
+  padding: 15px 0px;
+  text-align: center;
+}
+.btn{
+color: white;
+font-size: 25px;
+background-color: Tomato;
+padding: 2px 5px;
+border: 2px solid rgba(0, 0, 0, 0);
+border-radius: 5px;
+text-decoration: none;
+display: block;
+}
+.btn:hover{
+ border: 2px solid Gold;
+ background-color: OrangeRed;
+}
+.btn:active{
+  background-color: Gold;
+}
+
+.topIn{
+  font-size: 25px;
+}
+
+.t1{
+  color: blue;
+  text-decoration: none;
+  margin: 10px 0px;
+  padding: 0px 10px;
+  text-align: center;
+}
+
+.t1:hover{
+  text-decoration: underline;
+}
+
+.from-control{
+
+    width: 100%;
+    min-height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+}
+
+.ts1{
+  font-size: 5px;
+}
+.ts2{
+  font-size: 10px;
+}
+.ts3{
+  font-size: 15px;
+}
+.ts4{
+  font-size: 20px;
+}
+.ts5{
+  font-size: 25px;
+}
+.ts6{
+  font-size: 30px;
+}
+
+input{
+  border-radius: 3px;
+  border: 1px solid black;
+  display: block;
+}
